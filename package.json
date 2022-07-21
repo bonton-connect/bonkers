@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "workspaces": [
+    "server",
+    "ui"
+  ],
+  "scripts": {
+    "dev": "turbo run build:watch --parallel"
+  },
+  "devDependencies": {
+    "turbo": "^1.2.14"
+  },
+  "name": "bonkers"
+}
